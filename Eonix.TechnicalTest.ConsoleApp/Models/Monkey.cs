@@ -5,13 +5,11 @@
     {
         public string Name { get; init; }
         public List<Trick> Tricks { get; init; }
-
         public Monkey(string name)
         {
             Name = name;
             Tricks = InitTricks();
         }
-
         private List<Trick> InitTricks()
         {
             return new List<Trick>

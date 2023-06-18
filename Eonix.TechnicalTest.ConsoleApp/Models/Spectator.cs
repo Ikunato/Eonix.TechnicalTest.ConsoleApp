@@ -2,10 +2,7 @@
 {
     public class Spectator
     {
-        public Spectator()
-        {
-
-        }
+        public Spectator(){}
 
         public void React(Trick trick, Monkey monkey)
         {
