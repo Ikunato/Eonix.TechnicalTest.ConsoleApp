@@ -8,10 +8,10 @@
             Monkey = monkey;
         }
 
-        public Trick AskMonkeyToDoTrick()
+        public List<Trick> AskMonkeyToDoTrick()
         {
             Console.WriteLine("Le dresseur demande à son singe de faire un tour");
-            return Monkey.DoTrick();
+            return Monkey.Tricks;
         }
     }
 }

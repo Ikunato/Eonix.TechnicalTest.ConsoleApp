@@ -7,14 +7,10 @@
 
         }
 
-        public void Applause()
+        public void React(Trick trick, Monkey monkey)
         {
-            Console.WriteLine("Le spectateur applaudit pendant le tour");
+            string react = trick.Type == TrickType.ACROBATIC ? "applaudit" : "siffle";
+            Console.WriteLine($"Le spectateur {react} penant le tour {trick.Name} du {monkey.Name}");
         }
-        public void Whistle()
-        {
-            Console.WriteLine("Le spectateur siffle pendant le tour");
-        }
-
     }
 }

@@ -3,11 +3,13 @@
 
     public class Monkey
     {
-        public List<Trick> tricks { get; init; }
+        public string Name { get; init; }
+        public List<Trick> Tricks { get; init; }
 
-        public Monkey()
+        public Monkey(string name)
         {
-            tricks = InitTricks();
+            Name = name;
+            Tricks = InitTricks();
         }
 
         private List<Trick> InitTricks()
@@ -23,15 +25,6 @@
                 new Trick("jongler avec une balle de foot", TrickType.ACROBATIC),
                 new Trick("jouer du saxophone", TrickType.MUSIC),
             };
-        }
-
-        public Trick DoTrick()
-        {
-            var random = new Random();
-            var number = random.Next(tricks.Count);
-            var trick = tricks.ElementAt(number);
-
-            return trick;
         }
     }
 }
