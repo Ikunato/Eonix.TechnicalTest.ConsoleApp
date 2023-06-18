@@ -7,6 +7,10 @@ namespace Eonix.TechnicalTest.Controllers
     [Route("[controller]")]
     public class PersonController : ControllerBase
     {
-        public PersonByIdOut
+        [HttpGet("{id}")]
+        public PersonByIdOut Get(Guid Id)
+        {
+
+        }
     }
 }
