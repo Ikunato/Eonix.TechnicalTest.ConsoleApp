@@ -39,6 +39,7 @@ namespace Eonix.TechnicalTest.WebAPI.Business.Services
 
             return result;
         }
+
         public async Task<PersonOut> GetPersonByIdAsync(Guid id)
         {
             var person = await Context.Persons.FirstOrDefaultAsync(x => x.Id == id);
