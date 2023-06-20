@@ -5,7 +5,7 @@ namespace Eonix.TechnicalTest.WebAPI.Infrastructure.Persistance
 {
     public class PersonDbContext : DbContext
     {
-        public DbSet<Person> Persons { get; set; }
+        public virtual DbSet<Person> Persons { get; set; }
 
         public string DbPath { get; }
 

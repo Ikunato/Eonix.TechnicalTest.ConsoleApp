@@ -5,7 +5,9 @@ VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eonix.TechnicalTest.ConsoleApp", "Eonix.TechnicalTest.ConsoleApp\Eonix.TechnicalTest.ConsoleApp.csproj", "{AFC97389-5647-40B4-A222-DA32EE6DE10C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eonix.TechnicalTest.WebAPI", "Eonix.TechnicalTest.WebAPI\Eonix.TechnicalTest.WebAPI.csproj", "{66A9D40E-6E08-433B-9A34-27E65E42C5F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eonix.TechnicalTest.WebAPI", "Eonix.TechnicalTest.WebAPI\Eonix.TechnicalTest.WebAPI.csproj", "{66A9D40E-6E08-433B-9A34-27E65E42C5F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eonix.TechnicalTest.Test", "Eonix.TechnicalTest.Test\Eonix.TechnicalTest.Test.csproj", "{4D5693B8-A089-4AB4-A116-7C444CB66B29}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{66A9D40E-6E08-433B-9A34-27E65E42C5F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66A9D40E-6E08-433B-9A34-27E65E42C5F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66A9D40E-6E08-433B-9A34-27E65E42C5F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D5693B8-A089-4AB4-A116-7C444CB66B29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D5693B8-A089-4AB4-A116-7C444CB66B29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D5693B8-A089-4AB4-A116-7C444CB66B29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D5693B8-A089-4AB4-A116-7C444CB66B29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
