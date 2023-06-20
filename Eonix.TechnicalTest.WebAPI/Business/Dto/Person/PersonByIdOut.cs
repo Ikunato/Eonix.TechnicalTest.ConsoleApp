@@ -1,6 +1,6 @@
-﻿namespace Eonix.TechnicalTest.WebAPI.Business.Dto.Person.DtoIn
+﻿namespace Eonix.TechnicalTest.Business.Dto.Person
 {
-    public class UpdatePersonIn
+    public class PersonByIdOut
     {
         public Guid Id { get; set; }
         public string Firstname { get; set; }
